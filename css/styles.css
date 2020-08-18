@@ -1,13 +1,15 @@
 .logoColor {
-    color: white;
+    color: orangered;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 1.5rem;
+    background-color: black;
+    padding: 2%;
 }
 
 
 #title {
-    background-color: #ffcccb;
+    /* background-color: #ffcccb; */
     padding-bottom: 5%;
 }
 
@@ -23,6 +25,7 @@
 }
  body {
      font-family: 'Montserrat';
+     background-color: black;
  }
 
  .navbar {
@@ -31,6 +34,8 @@
 
  .nav-item {
      padding: 0 18px;
+     font-weight: bolder;
+     color: orangered;
  }
 
  .nav-link {
@@ -50,11 +55,11 @@
  .scndrow-img {
      margin: 0 0 0 45%;
      padding-bottom: 4%;
-     color: #ffcccb;
+     /* color: #ffcccb; */
  }
 
  .scndrow-img:hover {
-     color: deeppink;
+     color: orangered;
  }
 
  h3{
@@ -64,7 +69,7 @@
      text-align: center;
  }
  .p-info {
-     color: #8f8f8f;
+     color: black;
      text-align: center;
  }
  .first-row {
@@ -78,7 +83,7 @@
 
  #testimonials {
      text-align: center;
-     background-color: #ffcccb;
+     background-color: black;
  }
 
  .carousel-item {
@@ -86,7 +91,7 @@
  }
 
  #press {
-    background-color: #ffcccb;
+    background-color: black;
     text-align: center;
     padding: 3%;
  }
@@ -99,11 +104,12 @@
  h2 {
     font-family: 'Montserrat';
     line-height: 1.5;
+    color: orangered;
     font-size: 3rem;
  }
  .testimonial-img {
-     border-radius: 100%;
-     width: 10%;
+     width: 30%;
+     height: 10%;
      margin: 20px;
  }
 
@@ -113,5 +119,50 @@
  .deck {
      padding: 4% 10%;
  }
+
+ .fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.deck {
+    visibility: hidden;
+}
+p:hover {
+    color: orangered;
+}
+
+h3:hover {
+    color: orangered;
+}
+.custom-toggler {
+    border-color: orangered;
+    color: orangered;
+    background-color: orangered;
+}
+.toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+}
+
+@media only screen and (max-width: 800px) {
+    .collapse {
+        background-color: whitesmoke;
+    }
+
+}
 
  
