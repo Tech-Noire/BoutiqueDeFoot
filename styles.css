@@ -1,0 +1,200 @@
+.logoColor {
+    color: orangered;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: black;
+    padding: 2%;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: transparent;
+}
+
+
+#title {
+    /* background-color: #ffcccb; */
+    padding-bottom: 5%;
+}
+
+.statement {
+    font-size: 3rem;
+    font-family: 'Montserrat-black', sans-serif;
+    line-height: 1.5;
+    color: black;
+}
+
+.container-fluid {
+    padding: 4% 10%;
+}
+ body {
+     font-family: 'Montserrat';
+     background-color: black;
+ }
+
+ .navbar {
+     padding: 0 0 5rem;
+ }
+
+ .nav-item {
+     padding: 0 18px;
+     font-weight: bolder;
+     color: orangered;
+ }
+
+ .nav-link {
+     font-size: 1.2rem;
+     font-family: "Montserrat-light";
+ }
+
+ .btn {
+     margin: 3% 2% 0 1%;
+ }
+
+ .lottie-top {
+     width: 40%;
+     transform: rotate(25deg);
+ }
+
+ .scndrow-img {
+     margin: 0 0 0 45%;
+     padding-bottom: 4%;
+     /* color: #ffcccb; */
+ }
+
+ .scndrow-img:hover {
+     color: orangered;
+ }
+
+ h3{
+     font-size: 1.5rem;
+     font-family: 'Montserrat-light';
+     font-weight: bold;
+     text-align: center;
+ }
+ .p-info {
+     color: black;
+     text-align: center;
+ }
+ .first-row {
+     padding-bottom: 15%;
+ }
+
+ #features {
+     padding-top: 3%;
+     padding-bottom: 7%;
+ }
+
+ #testimonials {
+     text-align: center;
+     background-color: black;
+ }
+
+ .carousel-item {
+    padding: 7% 18%;
+ }
+
+ #press {
+    background-color: black;
+    text-align: center;
+    padding: 3%;
+ }
+
+ .press-img {
+     width: 10%;
+     margin: 0 10px 0 0
+ }
+
+ h2 {
+    font-family: 'Montserrat';
+    line-height: 1.5;
+    color: orangered;
+    font-size: 3rem;
+ }
+ .testimonial-img {
+     width: 30%;
+     height: 10%;
+     margin: 20px;
+ }
+
+ #pricing {
+     text-align: center;
+ }
+ .deck {
+     padding: 4% 10%;
+ }
+
+ .fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.deck {
+    visibility: hidden;
+}
+p:hover {
+    color: orangered;
+}
+
+h3:hover {
+    color: orangered;
+}
+.custom-toggler {
+    border-color: orangered;
+    color: orangered;
+    background-color: orangered;
+}
+.toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+}
+
+@media only screen and (max-width: 800px) {
+    .collapse {
+        background-color: whitesmoke;
+    }
+
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .fullscreen-bg__video {
+      height: 300%;
+      top: -100%;
+    }
+  }
+  
+  @media (max-aspect-ratio: 16/9) {
+    .fullscreen-bg__video {
+      width: 300%;
+      left: -100%;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .fullscreen-bg {
+        background-color: tomato;
+      /* background: url('https://firebasestorage.googleapis.com/v0/b/realtimedbdemo-a6451.appspot.com/o/Yellow%20and%20Black%20Fashion%20Collection%20Animated%20Social%20Media%20Graphic%20(1).png?alt=media&token=c3a827d4-b78f-4b23-81c7-8a8239cecc0c') center center / cover no-repeat; */
+    }
+  
+    .fullscreen-bg__video {
+      display: none;
+    }
+  }
+
+ 
